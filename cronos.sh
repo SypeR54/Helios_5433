@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Cronos Build Script V3.0
-# For Exynos7870
+# For Exynos5433 (based on Helios_7870 script)
 # Coded by BlackMesa/AnanJaser1211 @2019
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +19,8 @@
 # Main Dir
 CR_DIR=$(pwd)
 # Define toolchan path
-CR_TC=/home/aj1211/Android/Toolchains/linaro-4.9.4-arm-eabi/bin/arm-eabi-
+#CR_TC=/home/oguzyasin54/Compiler/linaro-4.9.4-arm-eabi/bin/arm-eabi-
+CR_TC=/home/oguzyasin54/Compiler/gcc-arm-8.3-2019.03-x86_64-arm-eabi/bin/arm-eabi-
 # Define proper arch and dir for dts files
 CR_DTS=arch/arm/boot/dts
 # Define boot.img out dir
